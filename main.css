@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url('images/header-small.jpg');
+  background-position: center center;
+  background-size: cover;
+  height: 523px;
+}
+
+.article-container {
+  display: inline-block;
+  margin-left: 100px;
+  border: solid green 5px;
+  width: 700px;
+  height: 955px;
+}
+
+aside {
+  display: inline-block;
+  border: solid red 5px;
+  height: 955px;
+  width: 300px;
+}
+
+.popular-posts-header {
+  height: 150px;
+  border: solid gray 5px;
+}
+
+.popular-posts {
+  height: 200px;
+  border: solid olive 5px;
+}
+
+footer {
+  height: 200px;
+  border: solid purple 5px;
+}
