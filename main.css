@@ -6,11 +6,78 @@
   box-sizing: border-box;
 }
 
+body, h1 {
+  font-family: "Open Sans", sans-serif; }
+
+h2, h3, h4, h5, h6{
+  font-family: "Oswald", sans-serif; }
+
+
 header {
   background-image: url('images/header-small.jpg');
   background-position: center center;
   background-size: cover;
   height: 523px;
+}
+
+header::after {
+  position: absolute;
+  height: 523px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(14, 120, 180, .65);
+  content: '';
+}
+
+.header-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+}
+
+.top-nav {
+  padding-top: 6px;
+  margin-left: 137px;
+  text-align: left;
+}
+.top-nav-left {
+  display: inline-block;
+}
+
+.sp-logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.page-title-small {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.top-nav-right {
+  display: inline-block;
+  margin-left: 603px;
+}
+
+.top-link {
+  color: black;
+  text-decoration: none;
+}
+
+.page-title {
+  margin-left: -2px;
+  font-size: 99px;
+  letter-spacing: -1px;
+  margin-top: 133px;
+  color: white;
+}
+
+.page-subtitle {
+  font-size: 16px;
+  letter-spacing: -0.3px;
+  margin-top: -15px;
 }
 
 .article-container {
@@ -23,22 +90,24 @@ header {
 
 aside {
   display: inline-block;
+  margin-left: 31px;
   border: solid red 5px;
   height: 955px;
-  width: 300px;
+  width: 330px;
 }
 
 .popular-posts-header {
+  margin-top: 46px;
   height: 150px;
   border: solid gray 5px;
 }
 
 .popular-posts {
-  height: 200px;
+  height: 329px;
   border: solid olive 5px;
 }
 
 footer {
-  height: 200px;
+  height: 100px;
   border: solid purple 5px;
 }
