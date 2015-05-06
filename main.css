@@ -6,10 +6,10 @@
   box-sizing: border-box;
 }
 
-body, h1 {
+body, h1, .page-title-small, .author-name-small {
   font-family: "Open Sans", sans-serif; }
 
-h2, h3, h4, h5, h6{
+h2, h3, h4, h5, h6, .top-nav-right {
   font-family: "Oswald", sans-serif; }
 
 
@@ -54,16 +54,26 @@ header::after {
 .page-title-small {
   display: inline-block;
   vertical-align: middle;
+  font-size: 16px;
+  padding-bottom: 1px;
+  margin-left: 1px;
 }
 
 .top-nav-right {
   display: inline-block;
-  margin-left: 603px;
+  margin-left: 593px;
+  font-size: 17px;
 }
 
 .top-link {
   color: black;
   text-decoration: none;
+  margin-right: 14px;
+}
+
+.search-icon {
+  padding-right: 8px;
+  font-size: 18px;
 }
 
 .page-title {
@@ -82,14 +92,70 @@ header::after {
 
 .article-container {
   display: inline-block;
+  vertical-align: top;
   margin-left: 100px;
   border: solid green 5px;
   width: 700px;
   height: 955px;
 }
 
+article {
+  padding-top: 58px;
+  padding-left: 58px;
+}
+
+.article-title {
+  line-height: 1.09;
+  font-size: 64px;
+}
+
+.article-author-info {
+  display: inline-block;
+}
+
+.author-pic-small {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 6px;
+  margin-left: 2px;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.author-name-small {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 12px;
+  margin-left: 4px;
+  font-size: 13px;
+}
+
+.article-create-date-container {
+  position: relative;
+  display: inline-block;
+  left: 8px;
+  top: 9px;
+}
+}
+
+.spacer {
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.article-create-date {
+  vertical-align: middle;
+  text-decoration: underline;
+}
+
+.article-p, blockquote {
+  display: none;
+}
+
 aside {
   display: inline-block;
+  vertical-align: top;
   margin-left: 31px;
   border: solid red 5px;
   height: 955px;
