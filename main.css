@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-body, h1, .page-title-small, .author-name-small {
+body, h1, .page-title-small, .author-name {
   font-family: "Open Sans", sans-serif; }
 
 h2, h3, h4, h5, h6, .top-nav-right {
@@ -86,8 +86,9 @@ header::after {
 
 .page-subtitle {
   font-size: 16px;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.4px;
   margin-top: -15px;
+  margin-left: -4px
 }
 
 .article-container {
@@ -135,22 +136,105 @@ article {
   position: relative;
   display: inline-block;
   left: 8px;
-  top: 9px;
-}
+  top: 7px;
+  margin-bottom: 41px;
 }
 
 .spacer {
   vertical-align: middle;
-  font-size: 12px;
+  font-size: 14px;
+  letter-spacing: -0.5px;
 }
 
 .article-create-date {
   vertical-align: middle;
   text-decoration: underline;
+  position: relative;
+  left: -2px;
+  font-size: 14px;
+  letter-spacing: -0.5px;
 }
 
-.article-p, blockquote {
-  display: none;
+.article-p {
+  margin-bottom: 26px;
+  letter-spacing: -0.4px;
+  line-height: 26.5px;
+}
+
+.bq-container {
+  margin-top: -6px;
+  margin-bottom: 28px;
+  margin-left: 7px;
+  border-left: solid gray 1px;
+  height: 56px;
+}
+
+blockquote {
+  padding-top: 12px;
+  padding-left: 16px;
+  font-size: 29px;
+  letter-spacing: -1.2px;
+}
+
+.btn-container {
+  margin-top: -7px;
+  margin-left: 61px;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  height: 30px;
+  width: 154px;
+  text-align: left;
+  border: none;
+  background-color: cyan;
+}
+
+.btn-icon {
+  display: inline-block;
+  background-color: blue;
+  background-size: cover;
+  background-position: center center;
+  width: 30px;
+  height: 30px;
+
+}
+.comment-button {
+  width: 158px;
+}
+
+.later-button {
+  margin-left: 6px;
+  width: 128px;
+}
+
+.share-button {
+  margin-left: 6px;
+  width: 154;
+}
+.comment-icon {
+  background-image: url('images/comment.png');
+  width: 32px;
+}
+
+.later-icon {
+  background-image: url('images/later.png');
+  width: 33px;
+}
+
+.share-icon {
+  background-image: url('images/share.png');
+  width: 33px;
+}
+
+.btn-text {
+  position: relative;
+  left: 9px;
+  bottom: 10px;
+  display: inline-block;
+  letter-spacing: -0.5px;
+  font-size: 13.5px;
 }
 
 aside {
@@ -162,15 +246,84 @@ aside {
   width: 330px;
 }
 
+.aside-author-info {
+  margin-top: 77px;
+  text-align: center;
+}
+
+.author-pic-med {
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+}
+
+.author-name-med {
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+.social-links {
+  margin-left: 17px;
+  font-size: 14px
+}
+
+.social-link {
+  margin-right: 12px;
+}
+
+.ad-container {
+  margin-top: 51px;
+  text-align: center;
+}
+
+.ad-image {
+  width: 280px;
+  height: 300px;
+}
+
+.ad-text {
+  margin-left: 192px;
+  letter-spacing: -0.4px;
+  font-size: 14px;
+}
+
+.sidebar-section-container {
+  margin-top: 44px;
+  margin-left: 20px
+}
+
+.sidebar-title {
+  margin-left: 2px;
+  margin-bottom: 2px;
+  font-size: 18px;
+}
+
+.sidebar-text {
+  font-size: 14px;
+  line-height: 24.5px;
+  letter-spacing: -0.3px;
+}
+
 .popular-posts-header {
-  margin-top: 46px;
-  height: 150px;
-  border: solid gray 5px;
+  margin-top: 52px;
+  margin-bottom: 3px;
+  height: 144px;
+  border-top: solid gray 1px;
+  padding-top: 23px;
+  text-align: center;
+  font-size: 63.5px;
 }
 
 .popular-posts {
   height: 329px;
-  border: solid olive 5px;
+}
+
+.popular-post-link {
+  display: inline-block;
+}
+
+.popular-post-image {
+  width: 325px;
 }
 
 footer {
