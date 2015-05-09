@@ -95,7 +95,7 @@ header::after {
   display: inline-block;
   vertical-align: top;
   margin-left: 100px;
-  border: solid green 5px;
+  border: solid white 5px;
   width: 700px;
   height: 955px;
 }
@@ -241,7 +241,7 @@ aside {
   display: inline-block;
   vertical-align: top;
   margin-left: 31px;
-  border: solid red 5px;
+  border: solid white 5px;
   height: 955px;
   width: 330px;
 }
@@ -319,12 +319,30 @@ aside {
 }
 
 .popular-post-link {
+  position: relative;
   display: inline-block;
+  text-decoration: none;
+  color: white;
 }
 
 .popular-post-image {
   height: 331px;
   width: 325px;
+}
+
+.popular-post-title {
+  position: absolute;
+  left: 17px;
+  bottom: 13px;
+  font-size: 30px;
+  font-weight: normal;
+  letter-spacing: -0.5px;
+}
+
+.longer-post-title {
+  left: 19px;
+  bottom: 17px;
+  line-height: 38px;
 }
 
 footer {
