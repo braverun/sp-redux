@@ -12,6 +12,14 @@ body, h1, .page-title-small, .author-name {
 h2, h3, h4, h5, h6, .top-nav-right {
   font-family: "Oswald", sans-serif; }
 
+p {
+  color: #5D686E;
+}
+
+a {
+  color: #A2B3BE;
+}
+
 
 header {
   background-image: url('images/header-small.jpg');
@@ -44,6 +52,7 @@ header::after {
 }
 .top-nav-left {
   display: inline-block;
+  color: #033550;
 }
 
 .sp-logo {
@@ -66,9 +75,9 @@ header::after {
 }
 
 .top-link {
-  color: black;
   text-decoration: none;
   margin-right: 14px;
+  color: #033550;
 }
 
 .search-icon {
@@ -88,7 +97,8 @@ header::after {
   font-size: 16px;
   letter-spacing: -0.4px;
   margin-top: -15px;
-  margin-left: -4px
+  margin-left: -4px;
+  color:#033550;
 }
 
 .article-container {
@@ -108,6 +118,7 @@ article {
 .article-title {
   line-height: 1.09;
   font-size: 64px;
+  color: #033550;
 }
 
 .article-author-info {
@@ -138,6 +149,7 @@ article {
   left: 8px;
   top: 7px;
   margin-bottom: 41px;
+  color: #A2B3BE;
 }
 
 .spacer {
@@ -165,7 +177,7 @@ article {
   margin-top: -6px;
   margin-bottom: 28px;
   margin-left: 7px;
-  border-left: solid gray 1px;
+  border-left: solid #A2B3BE 1px;
   height: 56px;
 }
 
@@ -174,6 +186,7 @@ blockquote {
   padding-left: 16px;
   font-size: 29px;
   letter-spacing: -1.2px;
+  color: #0E78B4;
 }
 
 .btn-container {
@@ -188,12 +201,13 @@ button {
   width: 154px;
   text-align: left;
   border: none;
-  background-color: cyan;
+  background-color: #A2B3BE;
+  color: white;
 }
 
 .btn-icon {
   display: inline-block;
-  background-color: blue;
+  background-color: #5D686E;
   background-size: cover;
   background-position: center center;
   width: 30px;
@@ -264,11 +278,13 @@ aside {
 
 .social-links {
   margin-left: 17px;
-  font-size: 14px
+  font-size: 14px;
+
 }
 
 .social-link {
   margin-right: 12px;
+  text-decoration:none;
 }
 
 .ad-container {
@@ -296,22 +312,25 @@ aside {
   margin-left: 2px;
   margin-bottom: 2px;
   font-size: 18px;
+  color: #0E78B4;
 }
 
 .sidebar-text {
   font-size: 14px;
   line-height: 24.5px;
   letter-spacing: -0.3px;
+  color: #A2B3BE;
 }
 
 .popular-posts-header {
   margin-top: 52px;
   margin-bottom: 3px;
   height: 144px;
-  border-top: solid gray 1px;
+  border-top: solid #A2B3BE 1px;
   padding-top: 23px;
   text-align: center;
   font-size: 63.5px;
+  color: #033550;
 }
 
 .popular-posts {
@@ -322,7 +341,7 @@ aside {
   position: relative;
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: #033550;
 }
 
 .popular-post-image {
@@ -346,7 +365,7 @@ aside {
 }
 
 footer {
-  background-color: purple;
+  background-color: #033550;
   height: 96px;
 }
 
@@ -367,6 +386,7 @@ footer {
   vertical-align: middle;
   margin-right: 295px;
   padding-top: 5px;
+  color: #A2B3BE;
 }
 
 .bottom-nav {
@@ -379,4 +399,5 @@ footer {
   display: inline;
   margin-right: 4px;
   text-decoration: none;
+  color: #A2B3BE;
 }
