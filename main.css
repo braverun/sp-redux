@@ -127,12 +127,29 @@ article {
 
 .author-pic-small {
   display: inline-block;
-  vertical-align: middle;
-  margin-top: 6px;
-  margin-left: 2px;
   border-radius: 50%;
   width: 24px;
   height: 24px;
+}
+.author-pic-tint-small {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 6px;
+    margin-left: 2px;
+    width: 24px;
+    height: 24px;
+}
+
+.author-pic-tint-small::after {
+  content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(14, 120, 180, 0.3);
+  border-radius: 50%;
 }
 
 .author-name-small {
@@ -271,6 +288,24 @@ aside {
   height: 85px;
 }
 
+.author-pic-tint-med {
+  position: relative;
+  display: inline-block;
+  width: 85px;
+  height: 85px;
+}
+
+.author-pic-tint-med::after {
+  content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(14, 120, 180, 0.3);
+  border-radius: 50%;
+}
+
 .author-name-med {
   margin-top: 5px;
   margin-left: 2px;
@@ -295,6 +330,23 @@ aside {
 .ad-image {
   width: 280px;
   height: 300px;
+}
+
+.ad-tint {
+  position: relative;
+  display: inline-block;
+  width: 280px;
+  height: 300px;
+}
+
+.ad-tint::after {
+  content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(14, 120, 180, .65);
 }
 
 .ad-text {
@@ -347,6 +399,23 @@ aside {
 .popular-post-image {
   height: 331px;
   width: 325px;
+}
+
+.popular-post-tint {
+  position: relative;
+  display: inline-block;
+  height: 331px;
+  width: 325px;
+}
+
+.popular-post-tint::after {
+  content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(14, 120, 180, 0.65);
 }
 
 .popular-post-title {
