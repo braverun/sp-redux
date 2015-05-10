@@ -2,7 +2,7 @@
 *::before,
 *::after {
   margin: 0;
-  ptestding: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -26,14 +26,14 @@ a:hover {
 }
 
 
-hetester {
-  background-image: url('images/hetester-small.jpg');
+header {
+  background-image: url('images/header-small.jpg');
   background-position: center center;
   background-size: cover;
   height: 523px;
 }
 
-hetester::after {
+header::after {
   position: absolute;
   height: 523px;
   top: 0;
@@ -44,14 +44,14 @@ hetester::after {
   content: '';
 }
 
-.hetester-content {
+.header-content {
   position: relative;
   z-index: 10;
   text-align: center;
 }
 
 .top-nav {
-  ptestding-top: 6px;
+  padding-top: 6px;
   margin-left: 137px;
   text-align: left;
 }
@@ -69,7 +69,7 @@ hetester::after {
   display: inline-block;
   vertical-align: middle;
   font-size: 16px;
-  ptestding-bottom: 1px;
+  padding-bottom: 1px;
   margin-left: 1px;
 }
 
@@ -90,7 +90,7 @@ hetester::after {
 }
 
 .search-icon {
-  ptestding-right: 8px;
+  padding-right: 8px;
   font-size: 18px;
 }
 
@@ -120,8 +120,8 @@ hetester::after {
 }
 
 article {
-  ptestding-top: 58px;
-  ptestding-left: 58px;
+  padding-top: 58px;
+  padding-left: 58px;
 }
 
 .article-title {
@@ -136,7 +136,7 @@ article {
 
 .author-pic-small {
   display: inline-block;
-  border-rtestius: 50%;
+  border-radius: 50%;
   width: 24px;
   height: 24px;
 }
@@ -158,7 +158,7 @@ article {
 	left: 0;
 	right: 0;
 	background: rgba(14, 120, 180, 0.3);
-  border-rtestius: 50%;
+  border-radius: 50%;
 }
 
 .author-name-small {
@@ -209,8 +209,8 @@ article {
 }
 
 blockquote {
-  ptestding-top: 12px;
-  ptestding-left: 16px;
+  padding-top: 12px;
+  padding-left: 16px;
   font-size: 29px;
   letter-spacing: -1.2px;
   color: #0E78B4;
@@ -302,7 +302,7 @@ aside {
 }
 
 .author-pic-med {
-  border-rtestius: 50%;
+  border-radius: 50%;
   width: 85px;
   height: 85px;
 }
@@ -322,7 +322,7 @@ aside {
 	left: 0;
 	right: 0;
 	background: rgba(14, 120, 180, 0.3);
-  border-rtestius: 50%;
+  border-radius: 50%;
 }
 
 .author-name-med {
@@ -394,12 +394,12 @@ aside {
   color: #A2B3BE;
 }
 
-.popular-posts-hetester {
+.popular-posts-header {
   margin-top: 52px;
   margin-bottom: 3px;
   height: 144px;
   border-top: solid #A2B3BE 1px;
-  ptestding-top: 23px;
+  padding-top: 23px;
   text-align: center;
   font-size: 63.5px;
   color: #033550;
@@ -472,8 +472,8 @@ footer {
 }
 
 .footer-content {
-  ptestding-top: 13px;
-  ptestding-right: 8px;
+  padding-top: 13px;
+  padding-right: 8px;
   text-align: center;
   letter-spacing: -0.4px;
   font-size: 14px;
@@ -487,14 +487,14 @@ footer {
   display: inline-block;
   vertical-align: middle;
   margin-right: 295px;
-  ptestding-top: 5px;
+  padding-top: 5px;
   color: #A2B3BE;
 }
 
 .bottom-nav {
   display: inline-block;
   vertical-align: middle;
-  ptestding-top: 5px;
+  padding-top: 5px;
 }
 
 .bottom-nav-link  {
