@@ -18,6 +18,11 @@ p {
 
 a {
   color: #A2B3BE;
+  transition: all 300ms;
+}
+
+a:hover {
+  color: #0e78b4;
 }
 
 
@@ -78,6 +83,10 @@ header::after {
   text-decoration: none;
   margin-right: 14px;
   color: #033550;
+}
+
+.top-link:hover {
+  color: white;
 }
 
 .search-icon {
@@ -158,6 +167,7 @@ article {
   margin-top: 12px;
   margin-left: 4px;
   font-size: 13px;
+  color: #0e78b4;
 }
 
 .article-create-date-container {
@@ -220,6 +230,8 @@ button {
   border: none;
   background-color: #A2B3BE;
   color: white;
+  cursor: pointer;
+  transition: all 300ms;
 }
 
 .btn-icon {
@@ -229,8 +241,15 @@ button {
   background-position: center center;
   width: 30px;
   height: 30px;
-
 }
+
+button:hover {
+  background-color: #0775B4; }
+
+button:hover .btn-icon {
+  background-color: #033550;
+}
+
 .comment-button {
   width: 158px;
 }
@@ -309,6 +328,7 @@ aside {
 .author-name-med {
   margin-top: 5px;
   margin-left: 2px;
+  color: #0e78b4;
 }
 
 .social-links {
@@ -396,9 +416,13 @@ aside {
   color: #033550;
 }
 
+.popular-post-link:hover {
+  color: white;
+}
+
 .popular-post-image {
   height: 331px;
-  width: 325px;
+  width: 100%;
 }
 
 .popular-post-tint {
@@ -415,7 +439,16 @@ aside {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background: rgba(14, 120, 180, 0.65);
+	background-color: rgba(14, 120, 180, 0.65);
+  transition: all 300ms;
+}
+
+.popular-post-tint:hover::after {
+  background-color: transparent;
+}
+
+.popular-post-link:hover .popular-post-tint::after {
+  background-color: transparent;
 }
 
 .popular-post-title {
