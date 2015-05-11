@@ -406,12 +406,14 @@ aside {
 }
 
 .popular-posts {
+  display: inline-block;
   height: 331px;
 }
 
 .popular-post-link {
   position: relative;
   display: inline-block;
+  height: 331px;
   text-decoration: none;
   color: #033550;
 }
@@ -421,13 +423,13 @@ aside {
 }
 
 .popular-post-image {
+  display: inline-block;
   height: 331px;
   width: 100%;
 }
 
 .popular-post-tint {
   position: relative;
-  display: inline-block;
   height: 331px;
   width: 325px;
 }
@@ -467,6 +469,7 @@ aside {
 }
 
 footer {
+  margin-top: -5px;
   background-color: #033550;
   height: 96px;
 }
