@@ -414,6 +414,7 @@ aside {
   position: relative;
   display: inline-block;
   height: 331px;
+  width: 25%;
   text-decoration: none;
   color: #033550;
 }
@@ -431,7 +432,7 @@ aside {
 .popular-post-tint {
   position: relative;
   height: 331px;
-  width: 325px;
+  width: 100%;
 }
 
 .popular-post-tint::after {
